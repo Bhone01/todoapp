@@ -1,0 +1,9 @@
+<h1>Hello</h1>
+{% for i in todo %}
+<h2>id = {{i.id}}</h2>
+<h2>Title = {{i.title}}</h2>
+<h2>des = {{i.descirption}}</h2>
+<input type="checkbox">{{i.completed}}
+<h2>createdat {{i.created_at}}</h2>
+<h2>updatedat {{i.updated_at}}</h2>
+{% endfor %}
